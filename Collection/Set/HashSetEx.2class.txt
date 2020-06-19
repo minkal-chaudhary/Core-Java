@@ -1,0 +1,30 @@
+import java.util.*;
+
+class HashSetEx2
+{
+public static void main9STring [] args)
+{
+HashSet<Emp> al=new HashSet<>();
+al.add(new Emp(10));
+al.add(new Emp(10));
+al.add(new Emp(12));
+al.add(new Emp(34));
+al.add(new Emp(13));
+al.add(new Emp(156));
+
+Iterator i=al.entrySet();
+while(i.hasNext())
+{
+Emp e=(Emp)i.next();
+System.out.pritnln(e.id);
+}
+}
+}
+class Emp
+{
+int id;
+Emp(int id)
+{
+this.id=id;
+}
+}

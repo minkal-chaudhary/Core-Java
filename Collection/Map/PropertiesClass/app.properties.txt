@@ -1,0 +1,3 @@
+DataBase=Oracle
+UserName=Minkal
+UserContact=9720585114
